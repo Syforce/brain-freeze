@@ -1,0 +1,21 @@
+{
+  "name": "central-core",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node dist/app.js",
+    "compile": "ts-node -r tsconfig-paths/register src/app.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "waterfall-gate": "^0.1.23"
+  }
+}
