@@ -1,4 +1,5 @@
 import { WaterfallGateService } from 'waterfall-gate'
+import { TestRouter } from "./router/test-router";
 
 class App {
     private waterfallGateService: WaterfallGateService;
@@ -14,6 +15,8 @@ class App {
     }
 
     private initServer() {
+        this.waterfallGateService.registerRouter(TestRouter);
+
         this.waterfallGateService.init({
             port: +process.env.PORT || 8081
         });
