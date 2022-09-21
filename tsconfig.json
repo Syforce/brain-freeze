@@ -1,1 +1,22 @@
-{  "compilerOptions": {    "experimentalDecorators": true,    "baseUrl": "src",    "module": "commonjs",    "declaration": true,    "moduleResolution": "node",    "pretty": false,    "sourceMap": false,    "target": "esnext",    "outDir": "./dist",    "strict": false  },  "include": [    "src/**/*.ts"  ],  "exclude": [    "node_modules"  ]}
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": "src",
+    "module": "commonjs",
+    "declaration": true,
+    "moduleResolution": "node",
+    "pretty": false,
+    "sourceMap": false,
+    "target": "esnext",
+    "outDir": "./dist",
+    "strict": false,
+    "paths": {
+
+    }
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+]}
