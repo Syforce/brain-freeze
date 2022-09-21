@@ -9,6 +9,6 @@ export class TestRouter extends AbstractRouter {
     }
 
     private sayHello() {
-        return 'yo';
+        return Promise.resolve({ hello: 'yes' });
     }
 }
